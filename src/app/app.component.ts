@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-template-form-with-api';
+
+  onFormSubmitted(){
+    console.log("form is submitted successfully")
+  }
 }
